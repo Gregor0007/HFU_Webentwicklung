@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Verdana, sans-serif;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.input {
+  background-color: #1F1F1F;
+  color: #ffffff;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  width: 220px;
+}
+
+/*header*/
+header {
+  padding: 5px 30px;
+  background-color: #1F1F1F;
+  margin-bottom: 50px;
+}
+
+header h1 a {
+  color: #FFAF37;
+}
+
+.header-inner {
+  display: flex;
+  /*Horizontale Anordnung der Objekte*/
+  justify-content: space-between;
+  /*Plazierung der Objekte auf horizontaler Ebene*/
+  align-items: center;
+  /*Vertikale Anordnung der Objekte*/
+}
+
+.menu {
+  height: 25px;
+  width: 35px;
+  position: relative;
+}
+
+.menu .line {
+  height: 3px;
+  width: 100%;
+  background-color: #999999;
+  position: absolute;
+}
+
+.menu .line.line2 {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.menu .line.line3 {
+  bottom: 0;
+}
+
+/*footer*/
+footer {
+  padding: 5px;
+  background-color: #1F1F1F;
+  margin-top: 50px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-gold {
+  color: #FFAF37;
+}
+
+.event {
+  background-color: #1F1F1F;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.events .event table tr td:first-child {
+  font-weight: bold;
+  color: #FFAF37;
+}
+
+.events .event table tr td {
+  padding: 5px;
+}
+
+.events .event .actions {
+  height: 30px;
+  width: 70px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.events .event .actions .action {
+  height: 30px;
+  width: 30px;
+}
+
+.button {
+  background-color: #FFAF37;
+  color: #ffffff;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.image {
+  height: 500px;
+}
+
+.row {
+  display: flex;
+}
