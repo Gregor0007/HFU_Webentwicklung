@@ -6,27 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Terminbuchung Goldene Schere</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 
 <body>
   <header>
-    <div class="container">
-      <div class="header-inner">
-        <h1> <a href="index.html">Goldene Schere</a>
-        </h1>
-        <div class="menu">
-          <div class="line line1">
 
-          </div>
-          <div class="line line2">
-
-          </div>
-          <div class="line line3">
-
-          </div>
-        </div>
-      </div>
-    </div>
   </header>
   <main>
     <div class="container">
@@ -44,42 +29,37 @@
           <div>
             <input class="input" type="date" id="date" required />
             <select class="input" name="time" id="time" required>
-              <option value="">08:00</option>
-              <option value="">08:30</option>
-              <option value="">09:00</option>
-              <option value="">09:30</option>
-              <option value="">10:00</option>
-              <option value="">10:30</option>
+              <option value="08:00">08:00</option>
+              <option value="08:30">08:30</option>
+              <option value="09:00">09:00</option>
+              <option value="09:30">09:30</option>
+              <option value="10:00">10:00</option>
+              <option value="10:30">10:30</option>
             </select>
           </div>
           <select class="input" name="haircut" id="haircut" required>
-            <option value="">Haarschnitt</option>
-            <option value="">Herren</option>
-            <option value="">Frauen</option>
+            <option value="Haarschnitt">Haarschnitt</option>
+            <option value="Herren">Herren</option>
+            <option value="Frauen">Frauen</option>
           </select>
-          <p> <a class="button" href="events.html">Termin buchen</a>
+          <p> <a class="button" id="createEventButton">Termin buchen</a>
           </p>
         </div>
         <div class="col">
           <img class="image" src="images/Bild_Friseur.jpg">
         </div>
       </div>
+      <div>
+        <h2>Termine</h2>
+      </div>
+      <div class="events">
+      </div>
+    </div>
+    <div class="display">
     </div>
   </main>
   <footer>
-    <div class="container">
-      <div class="footer-inner">
 
-        <p> <span class="text-gold">Adresse</span> <br>
-          Friseur Goldene Schere <br>
-          Musterstr. 10 <br>
-          77777 Musterstadt</p>
-        <div>
-          <p> <a href="events.html">Meine Termine</a>
-          </p>
-        </div>
-      </div>
-    </div>
   </footer>
 </body>
 
